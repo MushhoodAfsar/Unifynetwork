@@ -1,0 +1,101 @@
+h2{
+  color:#3FBA96;;
+  letter-spacing: 0.01em;
+  font-size: 25px;
+  line-height: 35px;
+  font-family: "Mulish", sans-serif;
+}
+.card-body h1{
+  font-size: 54px;
+  font-weight: 600;
+  /*color: #212730;*/
+  color: #FFFFFF;
+  display: block;
+  flex-direction: column;
+  line-height: 50px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-flex: 0;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-left: 100px;
+}
+.card-body h5{
+  color: #c7a86e;
+  letter-spacing: 0.01em;
+  font-size: 20px;
+  line-height: 35px;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 100px;
+}
+
+.mybody{
+  min-height: 86vh;
+  display: grid;
+  place-items: center;
+}
+
+.slider{
+  height:450px ;
+  position:relative ;
+  width:80% ;
+  margin: 0%;
+  padding: 0%;
+  display:grid;
+  place-items:center ;
+  overflow: hidden;
+}
+
+.slide-track{
+  display: flex;
+  width: 100%;
+  animation: scroll 30s linear infinite;
+}
+@keyframes scroll{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-250px * 13));
+  }
+}
+.slide-track:hover{
+  animation-play-state: paused;
+}
+
+.slide{
+  height: 440px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.slide :hover{
+  background-color:transparent;
+  transition: transform 1s ease;
+  color: transparent;
+}
+
+.innerslidecontent{
+  text-align: center;
+  width: 350px;
+  margin: 0%;
+padding-top: 20px;
+}
+.innerslidecontent img{
+  object-fit: cover;
+}
+
+
+
+.innerslidecontent a:hover{
+  background-color: #00008B;
+  color: white;
+}
+

@@ -1,0 +1,50 @@
+
+.main{
+  margin-top: 60px;
+  background-color: aliceblue;
+}
+
+h2{
+  font-family: "Nunito", sans-serif;
+  color: #010f1d;
+
+}
+
+p{
+  /* color: #7A7A7A; */
+  color: aliceblue;
+  font-size: 16px;
+  text-align: justify;
+margin-right: 10px;
+}
+
+.card-body{
+  margin-top: 100px;
+  margin-left: 25px;
+}
+
+.card-body h1{
+  font-size: 54px;
+  font-weight: 600;
+  /*color: #212730;*/
+  color: #FFFFFF;
+  display: block;
+  flex-direction: column;
+  line-height: 50px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-flex: 0;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.card-body h5{
+  color: #c7a86e;
+  letter-spacing: 0.01em;
+  font-size: 20px;
+  line-height: 35px;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
